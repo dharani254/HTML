@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Styles Example</title>
+<style>
+h2 {
+color: green;
+text-align: center; /* Property: text-align, Value: center */
+.internal-style {
+font-size: 20px;
+font-family: Arial, sans-serif;
+}
+#internal-id {
+background-color: lightyellow;
+padding: 10px;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Inline CSS -->
+<p style="color: red; font-weight: bold;">
+This paragraph is styled using <strong>inline CSS</strong>.
+<!-- Selector: p (element) -->
+<!-- Property: color, font-weight -->
+<!-- Value: red, bold -->
+</p>
+<h2>This heading is styled using <strong>internal CSS</strong></h2>
+<p class="internal-style">
+This paragraph is styled using a <strong>class selector in internal CSS</strong>.
+</p>
+<div id="internal-id">
+This div is styled using an <strong>ID selector in internal CSS</strong>.
+</div>
+<p class="external-style">
+This paragraph is styled using <strong>external CSS</strong>.
+</p>
+</body>
+</html>
