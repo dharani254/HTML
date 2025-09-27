@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Working with Frames - Kadali Routhu</title>
+</head>
+<body>
+    <h1>Experiment 2(c) - Working with Frames (using Iframes)</h1>
+    <p>This example divides the page into three parts: 
+       first shows an image, second shows a paragraph, and third shows hyperlinks.</p>
+
+    <!-- Container -->
+    <div style="display: flex; justify-content: space-between;">
+
+        <!-- First part - Image -->
+        <iframe 
+            srcdoc="<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMVbMIYWY23xgcVltzrhsBDW8ksXeoVhQYpQ&s' width='100%' height='100%'>" 
+            width="32%" height="400px">
+        </iframe>
+
+        <!-- Second part - Paragraph -->
+        <iframe 
+            srcdoc='<h2>Kadali Routhu</h2><p>Kadali Routhu (Kadali Satyanarayana) is a renowned Telugu writer, lyricist, and publisher. Her works highlight feminism, social issues, and untold stories, giving voice to women who challenge societal expectations.</p>' 
+            width="32%" height="400px">
+        </iframe>
+
+        <!-- Third part - Links -->
+        <iframe 
+            srcdoc='<h2>Related Links</h2><a href="https://www.instagram.com/kadali_sathyanarayana/?hl=en" target="_blank">Kadali Routhu Instagram</a><br><br><a href="https://www.youtube.com/results?search_query=kadali+routhu" target="_blank">Kadali Routhu YouTube</a>' 
+            width="32%" height="400px">
+        </iframe>
+
+    </div>
+</body>
+</html>
