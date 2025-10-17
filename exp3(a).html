@@ -1,85 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>HTML5 Semantic Tags Example</title>
-<style>
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-
-header, footer { background: #333; color: white; padding: 15px; text-align: center; }
-nav { background: #555; padding: 10px; }
-nav a { color: white; margin: 0 10px; text-decoration: none; }
-main { display: flex; margin: 20px; }
-article { flex: 3; padding: 15px; background: #f9f9f9; margin-right: 20px; border-radius: 8px; }
-aside { flex: 1; padding: 15px; background: #f1f1f1; border-radius: 8px; }
-figure { text-align: center; margin: 20px 0; }
-figcaption { font-size: 14px; color: gray; }
-section { margin-bottom: 20px; }
-.highlight { color: red; font-weight: bold; }
-</style>
+    <meta charset="UTF-8">
+    <title>Kadali Routhu - Semantic HTML Example</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background: #333; color: white; padding: 15px; text-align: center; }
+        nav { background: #555; padding: 10px; }
+        nav a { color: white; margin: 0 10px; text-decoration: none; }
+        main { display: flex; margin: 20px; }
+        article { flex: 3; padding: 15px; background: #f9f9f9; margin-right: 20px; border-radius: 8px; }
+        aside { flex: 1; padding: 15px; background: #f1f1f1; border-radius: 8px; }
+        figure { text-align: center; margin: 20px 0; }
+        figcaption { font-size: 14px; color: gray; }
+        section { margin-bottom: 20px; }
+        .highlight { color: red; font-weight: bold; }
+        a { color: blue; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
 
-<!-- HEADER -->
-<header>
-<h1>My Blog Website</h1>
-<p>Learning HTML5 Semantic Elements</p>
-</header>
+    <!-- HEADER -->
+    <header>
+        <h1>Kadali Routhu - Telugu Writer</h1>
+        <p>Exploring the life and works of Kadali Routhu</p>
+    </header>
 
-<!-- NAVIGATION -->
-<nav>
-<a href="#home">Home</a>
-<a href="#articles">Articles</a>
-<a href="#about">About</a>
-</nav>
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#bio">Biography</a>
+        <a href="#works">Works</a>
+        <a href="#links">Links</a>
+    </nav>
 
-<!-- MAIN CONTENT -->
-<main>
-<!-- ARTICLE SECTION -->
-<article>
-<header>
-<h2 id="articles">Understanding Semantic HTML</h2>
-<p><span class="highlight">Author:</span> Dharani</p>
-</header>
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- ARTICLE -->
+        <article id="bio">
+            <header>
+                <h2>Biography of Kadali Routhu</h2>
+                <p><span class="highlight">Author:</span> Kadali Routhu</p>
+            </header>
 
-<section>
-<p>
-Semantic HTML tags help give meaning to the structure of a webpage.
-For example, the <span class="highlight">&lt;article&gt;</span> tag
-is used for self-contained content.
-</p>
-</section>
+            <section>
+                <p>
+                    Kadali Routhu (Kadali Satyanarayana) is a renowned Telugu writer, lyricist, and publisher.  
+                    Her works highlight feminism, social issues, and untold stories, giving voice to women who challenge societal expectations.
+                </p>
+            </section>
 
-<section>
-<figure>
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/
-20241127115416984900/html-sementics-layout.png" alt="Sample Semantic HTML Layout">
-<figcaption>An example of an image inside a &lt;figure&gt; with a caption.</
-figcaption>
-</figure>
-</section>
+            <section>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMVbMIYWY23xgcVltzrhsBDW8ksXeoVhQYpQ&s" alt="Kadali Routhu" width="300">
+                    <figcaption>Portrait of Kadali Routhu</figcaption>
+                </figure>
+            </section>
 
-<footer>
-<p>Published on: August 23, 2025</p>
+            <section>
+                <h3 id="works">Notable Works</h3>
+                <ul>
+                    <li><span class="highlight">Feminist Short Stories</span></li>
+                    <li>Lyricism in Telugu Songs</li>
+                    <li>Publishing Social Commentaries</li>
+                </ul>
+            </section>
 
-</footer>
-</article>
+            <footer>
+                <p>Published on: October 17, 2025</p>
+            </footer>
+        </article>
 
-<!-- SIDEBAR -->
-<aside>
-<h3>Related Topics</h3>
-<ul>
-<li>HTML Basics</li>
-<li>CSS Styling</li>
-<li>JavaScript Essentials</li>
-</ul>
-</aside>
-</main>
+        <!-- ASIDE / SIDEBAR -->
+        <aside id="links">
+            <h3>Related Links</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/kadali_sathyanarayana/?hl=en" target="_blank">Kadali Routhu Instagram</a></li>
+                <li><a href="https://www.youtube.com/results?search_query=kadali+routhu" target="_blank">Kadali Routhu YouTube</a></li>
+                <li><a href="#">More Articles</a></li>
+            </ul>
+        </aside>
+    </main>
 
-<!-- FOOTER -->
-<footer>
-<p>&copy; 2025 My Blog Website | Built with HTML5 Semantic Elements</p>
-</footer>
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Kadali Routhu Blog | Built with HTML5 Semantic Elements</p>
+    </footer>
 
 </body>
 </html>
+
